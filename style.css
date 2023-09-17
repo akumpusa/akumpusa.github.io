@@ -2,6 +2,12 @@ body {
     background-color: #FFFFFF;
     font-family: Calibri, sans-serif;
   }
+
+  h1.header {
+    color: #4472C4;
+    border-bottom: 1px solid #4472C4;
+    font-size: 36px;
+  }
   
   h1 {
     font-size: 24px;
@@ -16,9 +22,9 @@ body {
     padding-bottom: 20px;
   }
 
-  div.header {
+  div.navigation {
     float: left;
-    width: 160px;
+    width: 155px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -31,24 +37,24 @@ body {
   }
   
   div.active {
-    border-right: 5px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
     font-size: 14px;
     font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     color: #FFFFFF;
     background-color: #000000;
   }
 
   div.navilink {
-    border-right: 5px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
     font-size: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     color: #FFFFFF;
     background-color: #4472C4;
   }
