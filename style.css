@@ -23,21 +23,19 @@ body {
   }
 
   div.navigation {
-    float: left;
-    width: 155px;
+    width: 600px;
     margin-left: 10px;
     margin-right: 10px;
   }
 
   div.content {
-    float: left;
     max-width: 600px;
     padding-left: 10px;
-    border-left: 1px solid #4472C4;
   }
   
   div.active {
-    border-bottom: 3px solid #FFFFFF;
+    float: left;
+    border-right: 3px solid #FFFFFF;
     font-size: 14px;
     font-weight: bold;
     padding-left: 15px;
@@ -49,7 +47,8 @@ body {
   }
 
   div.navilink {
-    border-bottom: 3px solid #FFFFFF;
+    float: left;
+    border-right: 3px solid #FFFFFF;
     font-size: 14px;
     padding-left: 15px;
     padding-right: 15px;
@@ -83,8 +82,8 @@ body {
     color: #D62618;
   }
 
-  @media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 1025px) {
     div.content {
-        max-width: 1050px;
+        max-width: 1025px;
     }
   }
