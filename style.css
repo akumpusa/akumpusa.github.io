@@ -6,6 +6,7 @@ body {
   h1.header {
     color: #4472C4;
     border-bottom: 1px solid #4472C4;
+    border-top: 1px solid #4472C4;
     font-size: 36px;
   }
   
@@ -15,6 +16,21 @@ body {
 
   p {
     font-size: 14px;
+  }
+
+  p.footer {
+    padding-top: 10px;
+    padding-bottom: 28px;
+    border-top: 1px solid #4472C4;
+    border-bottom: 1px solid #4472C4;
+  }
+
+  span.footerleft {
+    float:left;
+  }
+
+  span.footerright {
+    float:right;
   }
 
   img {
