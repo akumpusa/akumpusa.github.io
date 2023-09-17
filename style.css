@@ -16,15 +16,21 @@ body {
     padding-bottom: 20px;
   }
 
-  div.content {
-    max-width: 760px;
+  div.header {
+    float: left;
+    width: 160px;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  div.content {
+    float: left;
+    max-width: 600px;
+    padding-left: 10px;
+    border-left: 1px solid #4472C4;
   }
   
   div.active {
-    float: left;
-    margin-left: 10px;
     border-right: 5px solid #FFFFFF;
     font-size: 14px;
     font-weight: bold;
@@ -37,8 +43,6 @@ body {
   }
 
   div.navilink {
-    float: left;
-    margin-left: 10px;
     border-right: 5px solid #FFFFFF;
     font-size: 14px;
     padding-left: 20px;
@@ -71,4 +75,10 @@ body {
 
   a.link:active {
     color: #D62618;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    div.content {
+        max-width: 1050px;
+    }
   }
