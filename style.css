@@ -5,22 +5,26 @@ body {
   
   h1 {
     font-size: 24px;
-    margin-left: 10px;
   }
 
   p {
     font-size: 14px;
-    margin-left: 10px;
-    width: 760px;
   }
 
-  table {
-    border-collapse: collapse;
+  img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  div.content {
+    max-width: 760px;
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-top: 30px;
   }
   
-  td.active {
+  div.active {
+    float: left;
+    margin-left: 10px;
     border-right: 5px solid #FFFFFF;
     font-size: 14px;
     font-weight: bold;
@@ -32,7 +36,9 @@ body {
     background-color: #000000;
   }
 
-  td.link {
+  div.navilink {
+    float: left;
+    margin-left: 10px;
     border-right: 5px solid #FFFFFF;
     font-size: 14px;
     padding-left: 20px;
@@ -43,7 +49,7 @@ body {
     background-color: #4472C4;
   }
 
-  td.link:hover {
+  div.navilink:hover {
     background-color: #000000;
   }
 
