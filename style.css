@@ -108,8 +108,8 @@ body {
     color: #D62618;
   }
 
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 1024px) {
     div.content {
-        max-width: 1025px;
+        max-width: 1024px;
     }
   }
