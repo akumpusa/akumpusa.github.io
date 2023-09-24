@@ -8,17 +8,22 @@ body {
     border-bottom: 1px solid #4472C4;
     border-top: 1px solid #4472C4;
     font-size: 36px;
+    margin-top: 7px;
+    padding-top: 20px;
   }
   
   h1 {
+    color: #4F4F4F;
     font-size: 24px;
   }
 
   p {
+    color: #404040;
     font-size: 14px;
   }
 
   p.footer {
+    color: #404040;
     padding-top: 10px;
     padding-bottom: 28px;
     border-top: 1px solid #4472C4;
@@ -42,16 +47,20 @@ body {
     width: 600px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
   }
 
   div.content {
     max-width: 600px;
     padding-left: 10px;
+    margin-top: 0px;
   }
   
-  div.active {
-    float: left;
-    border-right: 3px solid #FFFFFF;
+  span.active {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: 2px solid #FFFFFF;
     font-size: 14px;
     font-weight: bold;
     padding-left: 15px;
@@ -59,12 +68,13 @@ body {
     padding-top: 7px;
     padding-bottom: 7px;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: #2B2B2B;
   }
 
-  div.navilink {
-    float: left;
-    border-right: 3px solid #FFFFFF;
+  span.navilink {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: 2px solid #FFFFFF;
     font-size: 14px;
     padding-left: 15px;
     padding-right: 15px;
@@ -74,8 +84,8 @@ body {
     background-color: #4472C4;
   }
 
-  div.navilink:hover {
-    background-color: #000000;
+  span.navilink:hover {
+    background-color: #2B2B2B;
   }
 
   a.navigation {
